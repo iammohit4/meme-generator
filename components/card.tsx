@@ -7,7 +7,7 @@ const Card = ({ name, image, link }: { name: string, image: string, link: string
     return (
         <CardContainer className="p-2">
             <CardHeader className="flex-col items-start">
-                <h4 className="text-white font-bold text-xl">{name}</h4>
+                <h4 className="font-bold text-xl">{name}</h4>
             </CardHeader>
             <CardBody className="overflow-visible">
                 <Image loading="lazy" className="object-cover w-full h-auto rounded-xl" src={image} alt={name} height={300} width={500} />

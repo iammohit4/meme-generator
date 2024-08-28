@@ -101,7 +101,7 @@ const Create = () => {
 
     return (
         <>
-            <h1 className="text-white font-bold text-2xl">{data?.name}</h1>
+            <h1 className="font-bold text-2xl">{data?.name}</h1>
             <div className="block md:flex mt-4 gap-4">
                 <div className="block w-full md:w-1/2">
                     <Image loading="eager" src={image} alt={data?.name} height={500} width={500} className="rounded-xl"></Image>
